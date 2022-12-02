@@ -1,0 +1,57 @@
+<meta charset="utf-8">
+
+	
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	//função que recebe parametro precisa de nome entre ()
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha()
+	}
+
+	var ano = 2022;
+	
+	mostra();
+	//document.write("<h1>Flavio tem " + (ano - 1977) + " anos</h1>");
+	
+	mostra("<h1>Flavio tem " + (ano - 1977) + " anos</h1>");
+
+	pulaLinha();
+
+	//document.write("<h2>Joaquim tem " + (ano - 1996) + " anos</h2>");
+
+	mostra("<h2>Joaquim tem " + (ano - 1996) + " anos</h2>");
+
+	pulaLinha();
+
+	ano = 2017
+	//document.write("<h3>Barney tem " + (ano - 1976) + " anos</h3>");
+
+	mostra("<h3>Barney tem " + (ano - 1976) + " anos</h3>");
+	
+	pulaLinha();
+
+	var idadeFlavio = 39;
+	var idadeJoaquim = 20;
+	var idadeBarney = 41;
+
+	var média = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+	//document.write("A média das idades é " + Math.round(média));
+
+	mostra("A média das idades é " + Math.round(média));
+
+	pulaLinha();
+
+	var nome = "Flavio";
+
+	//document.write("<br>A idade de " + nome + " é " + idadeFlavio)
+
+	mostra("<br>A idade de " + nome + " é " + idadeFlavio);
+
+
+</script>
